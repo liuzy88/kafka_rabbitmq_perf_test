@@ -1,0 +1,100 @@
+单节点测试结果：
+
+1.消息大小(100 200 400 600 800 1000 2000 4000 6000 8000 10000)：
+sending rate avg: 36275 msg/s recving rate avg: 36275 msg/s
+sending rate avg: 39518 msg/s recving rate avg: 39518 msg/s
+sending rate avg: 39761 msg/s recving rate avg: 39761 msg/s
+sending rate avg: 40451 msg/s recving rate avg: 40451 msg/s
+sending rate avg: 39820 msg/s recving rate avg: 39820 msg/s
+sending rate avg: 39277 msg/s recving rate avg: 39277 msg/s
+sending rate avg: 35602 msg/s recving rate avg: 35602 msg/s
+sending rate avg: 34821 msg/s recving rate avg: 34821 msg/s
+sending rate avg: 35059 msg/s recving rate avg: 35055 msg/s
+sending rate avg: 32468 msg/s recving rate avg: 32468 msg/s
+sending rate avg: 33467 msg/s recving rate avg: 33464 msg/s
+
+2.生产者/消费者 数量(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15)：
+ps
+sending rate avg: 36763 msg/s recving rate avg: 36763 msg/s
+sending rate avg: 26913 msg/s recving rate avg: 53826 msg/s
+sending rate avg: 24133 msg/s recving rate avg: 72399 msg/s
+sending rate avg: 19919 msg/s recving rate avg: 79676 msg/s
+sending rate avg: 17515 msg/s recving rate avg: 87575 msg/s
+sending rate avg: 15453 msg/s recving rate avg: 92719 msg/s
+sending rate avg: 13819 msg/s recving rate avg: 96733 msg/s
+sending rate avg: 12724 msg/s recving rate avg: 101797 msg/s
+sending rate avg: 11382 msg/s recving rate avg: 102444 msg/s
+sending rate avg: 10641 msg/s recving rate avg: 106411 msg/s
+sending rate avg: 9545 msg/s recving rate avg: 105000 msg/s
+sending rate avg: 9164 msg/s recving rate avg: 109972 msg/s
+sending rate avg: 8458 msg/s recving rate avg: 109954 msg/s
+sending rate avg: 7799 msg/s recving rate avg: 109186 msg/s
+sending rate avg: 7489 msg/s recving rate avg: 112346 msg/s
+cs
+sending rate avg: 37705 msg/s recving rate avg: 37705 msg/s
+sending rate avg: 71745 msg/s recving rate avg: 71745 msg/s
+sending rate avg: 71175 msg/s recving rate avg: 71175 msg/s
+sending rate avg: 70358 msg/s recving rate avg: 70358 msg/s
+sending rate avg: 69496 msg/s recving rate avg: 69496 msg/s
+sending rate avg: 71320 msg/s recving rate avg: 71320 msg/s
+sending rate avg: 72808 msg/s recving rate avg: 72808 msg/s
+sending rate avg: 74648 msg/s recving rate avg: 74648 msg/s
+sending rate avg: 73971 msg/s recving rate avg: 73971 msg/s
+sending rate avg: 73243 msg/s recving rate avg: 73243 msg/s
+sending rate avg: 71604 msg/s recving rate avg: 71604 msg/s
+sending rate avg: 70426 msg/s recving rate avg: 70426 msg/s
+sending rate avg: 68500 msg/s recving rate avg: 68500 msg/s
+sending rate avg: 66606 msg/s recving rate avg: 66606 msg/s
+sending rate avg: 63144 msg/s recving rate avg: 63144 msg/s
+
+
+
+三节点测试结果：
+
+1.消息大小(100 200 400 600 800 1000 2000 4000 6000 8000 10000)：
+sending rate avg: 20618 msg/s recving rate avg: 20615 msg/s
+sending rate avg: 20857 msg/s recving rate avg: 20854 msg/s
+sending rate avg: 21122 msg/s recving rate avg: 21122 msg/s
+sending rate avg: 16749 msg/s recving rate avg: 16745 msg/s
+sending rate avg: 18316 msg/s recving rate avg: 18311 msg/s
+sending rate avg: 17928 msg/s recving rate avg: 17922 msg/s
+sending rate avg: 15663 msg/s recving rate avg: 15658 msg/s
+sending rate avg: 17036 msg/s recving rate avg: 17027 msg/s
+sending rate avg: 16374 msg/s recving rate avg: 16366 msg/s
+sending rate avg: 14282 msg/s recving rate avg: 14276 msg/s
+sending rate avg: 15567 msg/s recving rate avg: 15557 msg/s
+
+
+2.生产者/消费者 数量(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15)：
+ps
+sending rate avg: 25100 msg/s recving rate avg: 25100 msg/s
+sending rate avg: 20440 msg/s recving rate avg: 40880 msg/s
+sending rate avg: 17855 msg/s recving rate avg: 53567 msg/s
+sending rate avg: 14872 msg/s recving rate avg: 59488 msg/s
+sending rate avg: 12710 msg/s recving rate avg: 63552 msg/s
+sending rate avg: 11885 msg/s recving rate avg: 71315 msg/s
+sending rate avg: 11373 msg/s recving rate avg: 79616 msg/s
+sending rate avg: 10105 msg/s recving rate avg: 80840 msg/s
+sending rate avg: 9269 msg/s recving rate avg: 83426 msg/s
+sending rate avg: 8892 msg/s recving rate avg: 88928 msg/s
+sending rate avg: 7855 msg/s recving rate avg: 86409 msg/s
+sending rate avg: 7457 msg/s recving rate avg: 89490 msg/s
+sending rate avg: 7582 msg/s recving rate avg: 98572 msg/s
+sending rate avg: 7289 msg/s recving rate avg: 102050 msg/s
+sending rate avg: 6440 msg/s recving rate avg: 96607 msg/s
+cs
+sending rate avg: 24266 msg/s recving rate avg: 24266 msg/s
+sending rate avg: 31425 msg/s recving rate avg: 31425 msg/s
+sending rate avg: 71752 msg/s recving rate avg: 71752 msg/s
+sending rate avg: 76398 msg/s recving rate avg: 76398 msg/s
+sending rate avg: 74221 msg/s recving rate avg: 74221 msg/s
+sending rate avg: 75602 msg/s recving rate avg: 75599 msg/s
+sending rate avg: 77688 msg/s recving rate avg: 77688 msg/s
+sending rate avg: 78759 msg/s recving rate avg: 78759 msg/s
+sending rate avg: 73849 msg/s recving rate avg: 73849 msg/s
+sending rate avg: 73524 msg/s recving rate avg: 73524 msg/s
+sending rate avg: 74636 msg/s recving rate avg: 74636 msg/s
+sending rate avg: 73632 msg/s recving rate avg: 73632 msg/s
+sending rate avg: 74458 msg/s recving rate avg: 74458 msg/s
+sending rate avg: 73553 msg/s recving rate avg: 73553 msg/s
+sending rate avg: 74344 msg/s recving rate avg: 74344 msg/s

@@ -181,9 +181,9 @@ listen haproxy_web
 
 listen rabbitmq_web
     bind *:15672
-    server node1 node1:15672 check inter 5s rise 3 fall 3 weight 1
-    server node2 node2:15672 check inter 5s rise 3 fall 3 weight 1
-    server node3 node3:15672 check inter 5s rise 3 fall 3 weight 1
+    server rabbit1 rabbit1:15672 check inter 5s rise 3 fall 3 weight 1
+    server rabbit2 rabbit2:15672 check inter 5s rise 3 fall 3 weight 1
+    server rabbit3 rabbit3:15672 check inter 5s rise 3 fall 3 weight 1
 
 listen rabbitmq_cluster
     bind *:5672
@@ -191,9 +191,9 @@ listen rabbitmq_cluster
     option tcplog
     option clitcpka
     balance roundrobin
-    server node1 node1:5672 check inter 5s rise 3 fall 3 weight 1
-    server node2 node2:5672 check inter 5s rise 3 fall 3 weight 1
-    server node3 node3:5672 check inter 5s rise 3 fall 3 weight 1
+    server rabbit1 rabbit1:5672 check inter 5s rise 3 fall 3 weight 1
+    server rabbit2 rabbit2:5672 check inter 5s rise 3 fall 3 weight 1
+    server rabbit3 rabbit3:5672 check inter 5s rise 3 fall 3 weight 1
 ```
 - 3.3启动HAProxy`service haproxy start`
 

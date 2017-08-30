@@ -1,0 +1,100 @@
+-- 部局 --
+172.16.24.131 jdk8 kafka1 rabbit1
+172.16.24.132 jdk8 kafka2 rabbit2
+172.16.24.133 jdk8 kafka3 rabbit3
+172.16.24.134 jdk8 zk1 kafka-manager
+172.16.24.135 jdk8 zk2 kafka-test haproxy
+172.16.24.136 jdk8 zk3 rabbit-test
+
+-- 部署 --
+1.修改HOSTS
+172.16.24.131 ka1
+172.16.24.132 ka2
+172.16.24.133 ka3
+172.16.24.134 zk1
+172.16.24.135 zk2
+172.16.24.136 zk3
+172.16.24.131 rabbit1
+172.16.24.132 rabbit2
+172.16.24.133 rabbit3
+
+2.所有机器安装jdk
+
+3.创建/SERVICE01
+
+4.安装环境
+在1 2 3 5上解压kafka,移动到SERVICE01
+在4 5 6上解压zookepper,移动到SERVICE01
+在4上安装unzip,解压kafka-manager,移动到SERVICE01
+在1 2 3上安装rabbitmq三个rpm
+	yum install -y openssl-devel ncurses-devel gcc gcc-c++ unixODBC-devel
+	yum install -y *.rpm
+在5上安装haproxy,修改配置文件
+	yum install -y haproxy
+	/etc/haproxy/haproxy.cfg
+在6上解压rabbit-test,移动到SERVICE01
+
+5.上传配置文件和脚本
+
+6.在1 2 3上修改kafka.properties
+	id和ip
+
+7.在4上修改/SERVICE01/kafka-manager-1.3.3.7/conf/application.conf
+	kafka-manager.zkhosts="zk1:2181,zk2:2181,zk3:2181"
+
+8.在4 5 6上修改/SERVICE01/zookeeper-3.4.6/conf/zoo.cfg
+	tickTime=2000
+	dataDir=/SERVICE01/zookeeper-data
+	clientPort=2181
+	initLimit=5
+	syncLimit=2
+	server.1=zk1:2881:2882
+	server.2=zk2:2881:2882
+	server.3=zk3:2881:2882
+
+-- kafka --
+
+1.在4 5 6上启动zookeeper
+	./zookeeper-reset.sh N
+	./zookeeper-start.sh
+2.在4上启动kafka-manager
+	./kafka-manager-start.sh
+3.浏览器访问172.16.24.134:9000
+	Add Cluster
+4.启动1 2 3的kafka
+5.在5执行测试脚本
+
+1.停止kafka节点，重置
+2.停止kafka-manager
+3.停止zookeeper，重置
+
+-- rabbitmq --
+1.在1 2 3上执行
+	hostname rabbit1/rabbit2/rabbit3
+2.在1 2 3上执行
+	echo '' >> /etc/profile
+	echo 'export PATH=$PATH:/usr/lib/rabbitmq/lib/rabbitmq_server-3.6.10/sbin' >> /etc/profile
+	echo '' >> /etc/profile
+	source /etc/profile
+3.在1 2 3上执行
+	rabbitmq-plugins enable rabbitmq_management
+4.在1 2 3上执行
+	pkill -u rabbitmq
+	cd /var/lib/rabbitmq
+	rm -rf *
+	rm -rf .erlang.cookie
+	service rabbitmq-server start
+	rabbitmqctl add_user admin admin
+	rabbitmqctl set_user_tags admin administrator
+	rabbitmqctl set_permissions -p / admin ".*" ".*" ".*"
+5.在2 3上执行
+	service rabbitmq-server stop
+	scp root@rabbit1:/var/lib/rabbitmq/.erlang.cookie /var/lib/rabbitmq/.erlang.cookie
+	cp /var/lib/rabbitmq/.erlang.cookie ~/.erlang.cookie
+	rabbitmq-server -detached
+	rabbitmqctl stop_app
+	rabbitmqctl join_cluster --ram rabbit@rabbit1
+	rabbitmqctl start_app
+6.在5上启动haproxy
+	service haproxy start
+7.在6执行测试脚本

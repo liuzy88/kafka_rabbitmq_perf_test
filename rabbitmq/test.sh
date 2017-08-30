@@ -1,6 +1,6 @@
 #!/bin/bash
 
-T="/root/rabbitmq-perf-test-1.3.0.RC2/bin/runjava com.rabbitmq.perf.PerfTest -h\"amqp://admin:admin@node4:5672/%2F\" -z 30"
+T="/SERVICE01/rabbitmq-perf-test-1.3.0.RC2/bin/runjava com.rabbitmq.perf.PerfTest -h\"amqp://admin:admin@172.16.24.135:5672/%2F\" -z 30"
 
 export T
 
