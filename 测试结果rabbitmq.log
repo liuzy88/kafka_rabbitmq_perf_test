@@ -98,3 +98,21 @@ sending rate avg: 73632 msg/s recving rate avg: 73632 msg/s
 sending rate avg: 74458 msg/s recving rate avg: 74458 msg/s
 sending rate avg: 73553 msg/s recving rate avg: 73553 msg/s
 sending rate avg: 74344 msg/s recving rate avg: 74344 msg/s
+
+3.应答模式和持久化：
+非持久化非自动ACK
+sending rate avg: 16057 msg/s recving rate avg: 16054 msg/s
+sending rate avg: 24766 msg/s recving rate avg: 49532 msg/s
+sending rate avg: 24463 msg/s recving rate avg: 73384 msg/s
+持久化非自动ACK
+sending rate avg: 9643 msg/s recving rate avg: 9640 msg/s
+sending rate avg: 8713 msg/s recving rate avg: 17419 msg/s
+sending rate avg: 8562 msg/s recving rate avg: 25684 msg/s
+持久化自动ACK
+sending rate avg: 25203 msg/s recving rate avg: 25203 msg/s
+sending rate avg: 33619 msg/s recving rate avg: 67239 msg/s
+sending rate avg: 53086 msg/s recving rate avg: 159258 msg/s
+非持久化自动ACK
+sending rate avg: 25093 msg/s recving rate avg: 25089 msg/s
+sending rate avg: 33131 msg/s recving rate avg: 66263 msg/s
+sending rate avg: 54117 msg/s recving rate avg: 162351 msg/s

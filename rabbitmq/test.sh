@@ -7,6 +7,7 @@ export T
 echo `date +%F\ %T` > test.xx
 ./test_messagesize.sh  >> test.xx
 ./test_pcs.sh  >> test.xx
+./test_ack_durable.sh  >> test.xx
 echo `date +%F\ %T` >> test.xx
 
 sed -i '/, time:/d' *.xx
