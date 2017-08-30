@@ -20,12 +20,11 @@ export C
 
 echo `date +%F\ %T` > test$1.xx
 ./test_messagesize.sh $1 >> test$1.xx
-./test_pcs.sh $1 >> test$1.xx
-./test_batchs.sh $1 >> test$1.xx
-./test_compressions.sh $1 >> test$1.xx
-./test_acks.sh $1 >> test$1.xx
-./test_partitions.sh $1 >> test$1.xx
-./test_fetchsize.sh $1 >> test$1.xx
+#./test_pcs.sh $1 >> test$1.xx
+#./test_batchs.sh $1 >> test$1.xx
+#./test_compressions.sh $1 >> test$1.xx
+#./test_acks.sh $1 >> test$1.xx
+#./test_partitions.sh $1 >> test$1.xx
 echo `date +%F\ %T` >> test$1.xx
 
 sed -i '/ WARN /d' *.xx

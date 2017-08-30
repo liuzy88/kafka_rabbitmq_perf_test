@@ -98,3 +98,8 @@
 6.在5上启动haproxy
 	service haproxy start
 7.在6执行测试脚本
+
+备份数量设置
+rabbitmqctl set_policy policy_1 "^" '{"ha-mode":"exactly","ha-params":2,"ha-sync-mode":"automatic"}'
+rabbitmqctl set_policy policy_1 "^" '{"ha-mode":"all","ha-sync-mode":"automatic"}'
+rabbitmqctl clear_policy policy_1
