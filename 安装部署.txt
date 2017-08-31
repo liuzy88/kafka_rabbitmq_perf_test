@@ -90,7 +90,7 @@
 5.在2 3上执行
 	service rabbitmq-server stop
 	scp root@rabbit1:/var/lib/rabbitmq/.erlang.cookie /var/lib/rabbitmq/.erlang.cookie
-	cp /var/lib/rabbitmq/.erlang.cookie ~/.erlang.cookie
+	\cp /var/lib/rabbitmq/.erlang.cookie ~/.erlang.cookie
 	rabbitmq-server -detached
 	rabbitmqctl stop_app
 	rabbitmqctl join_cluster --ram rabbit@rabbit1
