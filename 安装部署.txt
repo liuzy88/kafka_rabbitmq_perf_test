@@ -28,6 +28,9 @@
 在4上安装unzip,解压kafka-manager,移动到SERVICE01
 在1 2 3上安装rabbitmq三个rpm
 	yum install -y openssl-devel ncurses-devel gcc gcc-c++ unixODBC-devel
+	wget http://www.rabbitmq.com/releases/erlang/erlang-19.0.4-1.el7.centos.x86_64.rpm
+	wget http://mirror.centos.org/centos/7/os/x86_64/Packages/socat-1.7.2.2-5.el7.x86_64.rpm
+	wget http://www.rabbitmq.com/releases/rabbitmq-server/v3.6.10/rabbitmq-server-3.6.10-1.el7.noarch.rpm
 	yum install -y *.rpm
 在5上安装haproxy,修改配置文件
 	yum install -y haproxy

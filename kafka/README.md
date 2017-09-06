@@ -68,8 +68,7 @@ echo "$1">/SERVICE01/zookeeper-data/myid
 在zk3上执行：
 ./zookeeper-reset.sh 3
 ```
-附件：
-       
+
 1.3.4	Kafka-Manager安装配置
 - 在Windos环境下载源码，安装sbt，过程略
 - 编译打包，得到kafka-manager-1.3.3.7.zip
@@ -105,8 +104,7 @@ if [ x$pid != x ] ; then
     rm -rf /SERVICE01/kafka-manager-1.3.3.7/application.home_IS_UNDEFINED
 fi
 ```
-附件：
-      
+
 1.3.5	Kafka安装配置
 - 下载kafka_2.9.2-0.8.2.1.tgz
 - 上传到/SERVICE01
@@ -157,8 +155,7 @@ rm -rf /SERVICE01/kafka-logs
 #!/bin/bash 
 tail -f kafka/logs/server.log
 ```
-附件：
-         
+
 
 1.3.6	测试工具
 - Kafka自带测试工具
@@ -242,105 +239,27 @@ tail -f kafka/logs/server.log
 ```
 
 2.2	测试点
-`注意：为减少环境切换麻烦，应依次测试单、双、三节点；`
+
 2.2.1	消息大小
 测试消息大小为100,200,400,600,800,1000,2000,4000,6000,8000,10000时的吞吐量
-```
-准备	执行脚本
-a)	切换到单节点环境
-b)	创建主题topic11，设置分区为3、复制因子为1	./kafka1_messagesize.sh>kafka1_messagesize.xx
-a)	切换到双节点环境
-b)	创建主题topic21，设置分区为3、复制因子为1	./kafka2_messagesize.sh>kafka2_messagesize.xx
-a)	切换到三节点环境
-b)	创建主题topic31，设置分区为3、复制因子为1	./kafka3_messagesize.sh>kafka3_messagesize.xx
-```
-附件：
-   
 
 2.2.2	生产者/消费者数量
 测试生产/消费线程数为1,2,5,10,50,100时的吞吐量
-```
-准备	执行脚本
-a)	切换到单节点环境
-b)	创建主题topic12，设置分区数为3，复制因子为1	./kafka1_pcs.sh>kafka1_pcs.xx
-a)	切换到双节点环境
-b)	创建主题topic22，设置分区数为3，复制因子为1	./kafka2_pcs.sh>kafka2_pcs.xx
-a)	切换到三节点环境
-b)	创建主题topic32，设置分区数为3，复制因子为1	./kafka3_pcs.sh>kafka3_pcs.xx
-```
-附件：
-   
+
 
 2.2.3	批处理数量
 测试批处理数量为1,2,5,10,50,100,500,1000时的吞吐量
-```
-准备	执行脚本
-a)	切换到单节点环境
-b)	创建主题topic13，设置分区数为3，复制因子为1	./kafka1_batchs.sh>kafka1_batchs.xx
-a)	切换到双节点环境
-b)	创建主题topic23，设置分区数为3，复制因子为1	./kafka2_batchs.sh>kafka2_batchs.xx
-a)	切换到三节点环境
-b)	创建主题topic33，设置分区数为3，复制因子为1	./kafka3_batchs.sh>kafka3_batchs.xx
-```
-附件：
-   
+
 
 2.2.4	压缩模式
 测试压缩模式为Uncomp,Gzip,Snappy,LZ4时的吞吐量
-```
-准备	执行脚本
-a)	切换到单节点环境
-b)	创建主题topic14，设置分区数为3，复制因子为1	./kafka1_compressions.sh>kafka1_compressions.xx
-a)	切换到双节点环境
-b)	创建主题topic24，设置分区数为3，复制因子为1	./kafka2_compressions.sh>kafka2_compressions.xx
-a)	切换到三节点环境
-b)	创建主题topic34，设置分区数为3，复制因子为1	./kafka2_compressions.sh>kafka2_compressions.xx
-```
-附件：
-   
 
 2.2.5	应答模式和复制因子
 测试应答模式为-1,0,1和复制因子为1,2,3时的吞吐量
-```
-准备	执行脚本
-a)	切换到单节点环境
-b)	创建主题topic15，设置分区数为6，复制因子为1	./kafka1_acks.sh>kafka1_acks.xx
-a)	切换到双节点环境
-b)	创建主题topic251，设置分区数为6，复制因子为1
-c)	创建主题topic252，设置分区数为6，复制因子为2	./kafka2_acks.sh>kafka2_acks.xx
-a)	切换到三节点环境
-b)	创建主题topic351，设置分区数为6，复制因子为1
-c)	创建主题topic352，设置分区数为6，复制因子为2
-d)	创建主题topic353，设置分区数为6，复制因子为3	./kafka3_acks.sh>kafka3_acks.xx
-```
-附件：
-   
 
 2.2.6	分区数量
 测试分区数量为1,2,4,8,10时的吞吐量
-```
-准备	执行脚本
-a)	切换到单节点环境
-b)	创建主题topic161，设置分区数为1，复制因子为1
-c)	创建主题topic162，设置分区数为2，复制因子为1
-d)	创建主题topic163，设置分区数为4，复制因子为1
-e)	创建主题topic164，设置分区数为8，复制因子为1
-f)	创建主题topic165，设置分区数为10，复制因子为1	./kafka1_partitions.sh>kafka1_partitions.xx
-a)	切换到双节点环境
-b)	创建主题topic261，设置分区数为1，复制因子为1
-c)	创建主题topic262，设置分区数为2，复制因子为1
-d)	创建主题topic263，设置分区数为4，复制因子为1
-e)	创建主题topic264，设置分区数为8，复制因子为1
-f)	创建主题topic265，设置分区数为10，复制因子为1	./kafka2_partitions.sh>kafka2_partitions.xx
-a)	切换到三节点环境
-g)	创建主题topic361，设置分区数为1，复制因子为1
-h)	创建主题topic362，设置分区数为2，复制因子为1
-i)	创建主题topic363，设置分区数为4，复制因子为1
-j)	创建主题topic364，设置分区数为8，复制因子为1
-b)	创建主题topic365，设置分区数为10，复制因子为1	./kafka3_partitions.sh>kafka3_partitions.xx
-```
-附件：
-   
+
 
 2.3	脚本测试结果处理
 - 删除多余的信息
@@ -350,7 +269,8 @@ sed -i '/Exception/d' *.xx
 sed -i '/	at /d' *.xx
 sed -i '/start.time/d' *.xx
 ```
-- 结果示例（注意：P表示生产者、C表示消费者、倒数第三个值为MB/s、倒数第一个值为msg/s）
+
+2.4	结果示例（注意：P表示生产者、C表示消费者、倒数第三个值为MB/s、倒数第一个值为msg/s）
 ```
 P
 2017-07-28 09:41:45:362, 2017-07-28 09:41:48:505, 3, 100, 1000, 47.68, 15.1714, 500000, 159083.6780

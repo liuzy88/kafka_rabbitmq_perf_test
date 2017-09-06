@@ -1,4 +1,4 @@
-# RabbitMQ 在5个场景下的性能测试
+# RabbitMQ 性能测试
 
 ## 1.测试环境
 
@@ -203,44 +203,14 @@ listen rabbitmq_cluster
 
 ## 3.测试步骤
 
-### 3.1.场景1：单发送单接收
-
-- 说明：无Exchange，无RoutingKey，生产者直接发送到队列，消费者直接取消息，设置Qos为0
+- 说明：分别测试消息大小、生产/消费者数量、ACK应答和持久化
 
 ```
-./s1.sh
+./test.sh
 ```
 
-### 3.2.场景2：单发送多接收
-
-- 说明：无Exchange，无RoutingKey，生产者直接发送到队列，多个消费者订阅队列直接取消息，设置Qos为1
+- 说明：设置无备份、1备份、2备份，修改`test.sh`后执行policy测试
 
 ```
-./s2.sh
-```
-
-### 3.3.场景3：Publish/Subscribe
-
-- 使用场景：发布、订阅模式，生产者发送广播fanout消息到RoutingKey，多个消费者订阅exchange内的消息，设置Qos为1
-
-```
-./s3.sh
-```
-
-### 3.4.场景4：Routing (按路线发送接收)
-
-- 使用场景：生产者用direct模式，按RoutingKey把消息发送到Exchange，消费者按不同的RoutingKey接收消息。
-- 测试时：RoutingKey个数等于消费者个数，生产者随机使用RoutingKey发送，每个消费者消费一个RoutingKey下的消息；
-
-```
-./s4.sh
-```
-
-### 3.5.场景5：Topics (按topic发送接收)
-
-- 使用场景：生产者用topic模式，按"随机的RoutingKey"把消息发送到Exchange，消费者按"模式匹配的RoutingKey"接收消息。
-- 测试时：RoutingKey个数等于消费者个数，每个消费者只设定一种"模式匹配的RoutingKey"；
-
-```
-./s5.sh
+./test.sh
 ```
