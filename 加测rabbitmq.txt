@@ -1,0 +1,53 @@
+加测rabbitmq
+副本数1 2 3
+9生产9消费
+
+结果：
+自动ACK		608982	75010	44035
+不自动ACK	223545	36775	29126
+
+自动ACK
+
+1
+sending rate avg: 67664 msg/s recving rate avg: 608982 msg/s
+2
+sending rate avg: 8334 msg/s recving rate avg: 75010 msg/s
+3
+sending rate avg: 4892 msg/s recving rate avg: 44035 msg/s
+
+
+不自动ACK
+
+1
+sending rate avg: 24838 msg/s recving rate avg: 223545 msg/s
+2
+sending rate avg: 4086 msg/s recving rate avg: 36775 msg/s
+3
+sending rate avg: 3236 msg/s recving rate avg: 29126 msg/s
+
+
+脚本：
+
+#!/bin/bash
+#
+# rabbitmqctl set_policy policy_1 "^" '{"ha-mode":"exactly","ha-params":2,"ha-sync-mode":"automatic"}'
+# rabbitmqctl set_policy policy_1 "^" '{"ha-mode":"all","ha-sync-mode":"automatic"}'
+# rabbitmqctl clear_policy policy_1
+
+T="/SERVICE01/rabbitmq-perf-test-1.3.0.RC2/bin/runjava com.rabbitmq.perf.PerfTest -h\"amqp://admin:admin@172.18.163.138:5672/%2F\" -z 30"
+
+export T
+
+echo `date +%F\ %T` > test.xx
+
+$T -x9 -y9 -a
+
+echo `date +%F\ %T` >> test.xx
+
+sed -i '/, time:/d' *.xx
+sed -i '/, starting/d' *.xx
+sed -i '/ WARN /d' *.xx
+sed -i '/Exception/d' *.xx
+sed -i '/	at /d' *.xx
+
+cat test.xx

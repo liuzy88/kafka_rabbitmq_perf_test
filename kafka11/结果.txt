@@ -1,0 +1,107 @@
+2017-11-01 17:54:07
+Created topic "topic351".
+P > topic351
+1000000 records sent, 222123.500666 records/sec (211.83 MB/sec), 132.99 ms avg latency, 479.00 ms max latency, 118 ms 50th, 251 ms 95th, 415 ms 99th, 470 ms 99.9th.
+1000000 records sent, 315258.511980 records/sec (300.65 MB/sec), 90.22 ms avg latency, 223.00 ms max latency, 90 ms 50th, 111 ms 95th, 127 ms 99th, 131 ms 99.9th.
+1000000 records sent, 279485.746227 records/sec (266.54 MB/sec), 103.72 ms avg latency, 213.00 ms max latency, 101 ms 50th, 136 ms 95th, 146 ms 99th, 151 ms 99.9th.
+Created topic "topic352".
+P > topic352
+1000000 records sent, 112208.258528 records/sec (107.01 MB/sec), 267.79 ms avg latency, 850.00 ms max latency, 163 ms 50th, 818 ms 95th, 844 ms 99th, 848 ms 99.9th.
+1000000 records sent, 321440.051430 records/sec (306.55 MB/sec), 83.64 ms avg latency, 202.00 ms max latency, 85 ms 50th, 103 ms 95th, 117 ms 99th, 126 ms 99.9th.
+1000000 records sent, 256739.409499 records/sec (244.85 MB/sec), 111.35 ms avg latency, 213.00 ms max latency, 107 ms 50th, 162 ms 95th, 179 ms 99th, 185 ms 99.9th.
+Created topic "topic353".
+P > topic353
+1000000 records sent, 60088.931619 records/sec (57.31 MB/sec), 511.06 ms avg latency, 2590.00 ms max latency, 73 ms 50th, 1394 ms 95th, 2431 ms 99th, 2561 ms 99.9th. 1000000 records sent, 304785.126486 records/sec (290.67 MB/sec), 88.39 ms avg latency, 216.00 ms max latency, 81 ms 50th, 145 ms 95th, 168 ms 99th, 176 ms 99.9th.
+1000000 records sent, 243486.729973 records/sec (232.21 MB/sec), 117.22 ms avg latency, 333.00 ms max latency, 81 ms 50th, 306 ms 95th, 321 ms 99th, 331 ms 99.9th.
+msg > topic32
+1000000 records sent, 182949.140139 records/sec (174.47 MB/sec), 164.56 ms avg latency, 466.00 ms max latency, 157 ms 50th, 351 ms 95th, 416 ms 99th, 457 ms 99.9th.
+C(cs) < topic32
+2017-11-02 10:25:04:315, 2017-11-02 10:25:08:112, 953.6743, 251.1652, 1000000, 263365.8151
+2017-11-02 10:25:09:674, 2017-11-02 10:25:13:393, 953.6743, 256.4330, 1000000, 268889.4864
+2017-11-02 10:25:14:944, 2017-11-02 10:25:18:687, 953.6743, 254.7888, 1000000, 267165.3754
+2017-11-02 10:25:20:227, 2017-11-02 10:25:23:949, 953.6743, 256.2263, 1000000, 268672.7566
+2017-11-02 10:25:25:495, 2017-11-02 10:25:29:222, 953.6743, 255.8826, 1000000, 268312.3155
+2017-11-02 10:25:30:771, 2017-11-02 10:25:34:631, 953.6743, 247.0659, 1000000, 259067.3575
+2017-11-02 10:25:36:219, 2017-11-02 10:25:39:877, 953.6743, 260.7092, 1000000, 273373.4281
+2017-11-02 10:25:41:433, 2017-11-02 10:25:45:315, 953.6743, 245.6657, 1000000, 257599.1757
+2017-11-02 10:25:46:870, 2017-11-02 10:25:50:549, 953.6743, 259.2211, 1000000, 271812.9927
+
+Created topic "topic33".
+P(batchs) > topic33
+1000000 records sent, 25612.785903 records/sec (24.43 MB/sec), 1173.63 ms avg latency, 1425.00 ms max latency, 1229 ms 50th, 1382 ms 95th, 1406 ms 99th, 1420 ms 99.9th.
+1000000 records sent, 26049.128657 records/sec (24.84 MB/sec), 1146.90 ms avg latency, 1703.00 ms max latency, 1218 ms 50th, 1631 ms 95th, 1674 ms 99th, 1697 ms 99.9th.
+1000000 records sent, 25948.414552 records/sec (24.75 MB/sec), 1154.25 ms avg latency, 1690.00 ms max latency, 1264 ms 50th, 1573 ms 95th, 1643 ms 99th, 1663 ms 99.9th.
+1000000 records sent, 25706.940874 records/sec (24.52 MB/sec), 1162.81 ms avg latency, 1744.00 ms max latency, 1253 ms 50th, 1564 ms 95th, 1691 ms 99th, 1736 ms 99.9th.
+1000000 records sent, 25462.137801 records/sec (24.28 MB/sec), 1171.91 ms avg latency, 1778.00 ms max latency, 1130 ms 50th, 1686 ms 95th, 1743 ms 99th, 1775 ms 99.9th.
+1000000 records sent, 25959.866047 records/sec (24.76 MB/sec), 1144.82 ms avg latency, 2057.00 ms max latency, 1150 ms 50th, 1946 ms 95th, 2011 ms 99th, 2048 ms 99.9th.
+1000000 records sent, 26064.744826 records/sec (24.86 MB/sec), 1139.13 ms avg latency, 2099.00 ms max latency, 1057 ms 50th, 1995 ms 95th, 2064 ms 99th, 2095 ms 99.9th.
+1000000 records sent, 26324.795325 records/sec (25.11 MB/sec), 1132.06 ms avg latency, 2004.00 ms max latency, 1168 ms 50th, 1929 ms 95th, 1965 ms 99th, 1995 ms 99.9th.
+1000000 records sent, 26573.129252 records/sec (25.34 MB/sec), 1116.32 ms avg latency, 2087.00 ms max latency, 1155 ms 50th, 1944 ms 95th, 2043 ms 99th, 2079 ms 99.9th.
+1000000 records sent, 26212.319790 records/sec (25.00 MB/sec), 1133.29 ms avg latency, 2107.00 ms max latency, 1175 ms 50th, 2015 ms 95th, 2075 ms 99th, 2102 ms 99.9th.
+1000000 records sent, 25913.449080 records/sec (24.71 MB/sec), 1148.55 ms avg latency, 1881.00 ms max latency, 1065 ms 50th, 1703 ms 95th, 1837 ms 99th, 1871 ms 99.9th.
+1000000 records sent, 63844.729618 records/sec (60.89 MB/sec), 370.79 ms avg latency, 489.00 ms max latency, 375 ms 50th, 452 ms 95th, 478 ms 99th, 486 ms 99.9th.
+1000000 records sent, 229463.056448 records/sec (218.83 MB/sec), 129.86 ms avg latency, 214.00 ms max latency, 126 ms 50th, 173 ms 95th, 199 ms 99th, 211 ms 99.9th.
+1000000 records sent, 367782.272894 records/sec (350.74 MB/sec), 73.26 ms avg latency, 191.00 ms max latency, 76 ms 50th, 87 ms 95th, 93 ms 99th, 95 ms 99.9th.
+
+Created topic "topic34".
+P > topic34
+1000000 records sent, 319693.094629 records/sec (304.88 MB/sec), 87.42 ms avg latency, 204.00 ms max latency, 88 ms 50th, 111 ms 95th, 122 ms 99th, 130 ms 99.9th.
+1000000 records sent, 36133.694670 records/sec (34.46 MB/sec), 1.93 ms avg latency, 213.00 ms max latency, 1 ms 50th, 2 ms 95th, 20 ms 99th, 65 ms 99.9th.
+1000000 records sent, 404040.404040 records/sec (385.32 MB/sec), 3.48 ms avg latency, 291.00 ms max latency, 3 ms 50th, 5 ms 95th, 28 ms 99th, 42 ms 99.9th.
+1000000 records sent, 85353.362922 records/sec (81.40 MB/sec), 1.78 ms avg latency, 250.00 ms max latency, 1 ms 50th, 4 ms 95th, 26 ms 99th, 38 ms 99.9th.
+
+Created topic "topic37".
+msg > topic37
+1000000 records sent, 696378.830084 records/sec (66.41 MB/sec), 1.28 ms avg latency, 190.00 ms max latency, 1 ms 50th, 2 ms 95th, 9 ms 99th, 12 ms 99.9th.
+C(fetch-size) < topic37
+2017-11-01 18:01:37:198, 2017-11-01 18:01:41:432, 95.3674, 22.5242, 1000000, 236183.2782
+2017-11-01 18:01:43:011, 2017-11-01 18:01:46:693, 95.3674, 25.9010, 1000000, 271591.5263
+2017-11-01 18:01:48:246, 2017-11-01 18:01:51:510, 95.3674, 29.2180, 1000000, 306372.5490
+2017-11-01 18:01:53:091, 2017-11-01 18:01:55:276, 95.3674, 43.6464, 1000000, 457665.9039
+2017-11-01 18:01:56:814, 2017-11-01 18:01:58:654, 95.3674, 51.8301, 1000000, 543478.2609
+2017-11-01 18:02:00:206, 2017-11-01 18:02:02:049, 95.3674, 51.7458, 1000000, 542593.5974
+Created topic "topic17".
+msg > topic17
+1000000 records sent, 514138.817481 records/sec (49.03 MB/sec), 43.81 ms avg latency, 363.00 ms max latency, 6 ms 50th, 131 ms 95th, 138 ms 99th, 139 ms 99.9th.
+C(fetch-size) < topic17
+2017-11-02 10:11:28:622, 2017-11-02 10:11:34:800, 95.3674, 15.4366, 1000000, 161864.6811
+2017-11-02 10:11:36:344, 2017-11-02 10:11:41:493, 95.3674, 18.5215, 1000000, 194212.4684
+2017-11-02 10:11:43:045, 2017-11-02 10:11:46:483, 95.3674, 27.7392, 1000000, 290866.7830
+2017-11-02 10:11:48:039, 2017-11-02 10:11:50:743, 95.3674, 35.2690, 1000000, 369822.4852
+2017-11-02 10:11:52:278, 2017-11-02 10:11:54:422, 95.3674, 44.4811, 1000000, 466417.9104
+2017-11-02 10:11:55:979, 2017-11-02 10:11:57:920, 95.3674, 49.1331, 1000000, 515198.3514
+
+Created topic "topic31".
+P(message-size) > topic31
+1000000 records sent, 736919.675755 records/sec (70.28 MB/sec), 1.78 ms avg latency, 213.00 ms max latency, 1 ms 50th, 5 ms 95th, 11 ms 99th, 15 ms 99.9th.
+1000000 records sent, 728862.973761 records/sec (139.02 MB/sec), 1.70 ms avg latency, 207.00 ms max latency, 1 ms 50th, 4 ms 95th, 11 ms 99th, 15 ms 99.9th.
+1000000 records sent, 614250.614251 records/sec (234.32 MB/sec), 56.91 ms avg latency, 216.00 ms max latency, 67 ms 50th, 97 ms 95th, 101 ms 99th, 107 ms 99.9th.
+1000000 records sent, 473933.649289 records/sec (271.19 MB/sec), 84.22 ms avg latency, 202.00 ms max latency, 89 ms 50th, 103 ms 95th, 114 ms 99th, 116 ms 99.9th.
+1000000 records sent, 379650.721336 records/sec (289.65 MB/sec), 88.25 ms avg latency, 204.00 ms max latency, 88 ms 50th, 105 ms 95th, 115 ms 99th, 117 ms 99.9th.
+1000000 records sent, 315656.565657 records/sec (301.03 MB/sec), 91.34 ms avg latency, 177.00 ms max latency, 90 ms 50th, 111 ms 95th, 128 ms 99th, 138 ms 99.9th.
+1000000 records sent, 192159.877018 records/sec (366.52 MB/sec), 79.33 ms avg latency, 208.00 ms max latency, 76 ms 50th, 100 ms 95th, 151 ms 99th, 167 ms 99.9th.
+1000000 records sent, 106951.871658 records/sec (407.99 MB/sec), 73.68 ms avg latency, 200.00 ms max latency, 72 ms 50th, 94 ms 95th, 118 ms 99th, 146 ms 99.9th.
+1000000 records sent, 61330.880098 records/sec (350.94 MB/sec), 65.28 ms avg latency, 198.00 ms max latency, 62 ms 50th, 133 ms 95th, 152 ms 99th, 171 ms 99.9th.
+1000000 records sent, 55894.024929 records/sec (426.44 MB/sec), 71.86 ms avg latency, 210.00 ms max latency, 69 ms 50th, 95 ms 95th, 115 ms 99th, 194 ms 99.9th.
+1000000 records sent, 34551.862345 records/sec (329.51 MB/sec), 58.66 ms avg latency, 206.00 ms max latency, 43 ms 50th, 153 ms 95th, 176 ms 99th, 193 ms 99.9th.
+
+Created topic "topic361".
+Created topic "topic362".
+Created topic "topic363".
+Created topic "topic364".
+Created topic "topic365".
+Created topic "topic366".
+Created topic "topic367".
+Created topic "topic368".
+Created topic "topic369".
+P > topic361~topic369
+1000000 records sent, 98039.215686 records/sec (93.50 MB/sec), 318.51 ms avg latency, 393.00 ms max latency, 325 ms 50th, 354 ms 95th, 387 ms 99th, 391 ms 99.9th.
+1000000 records sent, 232666.356445 records/sec (221.89 MB/sec), 126.31 ms avg latency, 182.00 ms max latency, 128 ms 50th, 164 ms 95th, 172 ms 99th, 181 ms 99.9th.
+1000000 records sent, 299580.587178 records/sec (285.70 MB/sec), 94.76 ms avg latency, 188.00 ms max latency, 93 ms 50th, 121 ms 95th, 131 ms 99th, 135 ms 99.9th.
+1000000 records sent, 322893.122376 records/sec (307.93 MB/sec), 88.42 ms avg latency, 208.00 ms max latency, 86 ms 50th, 117 ms 95th, 128 ms 99th, 131 ms 99.9th.
+1000000 records sent, 337609.723160 records/sec (321.97 MB/sec), 80.43 ms avg latency, 199.00 ms max latency, 82 ms 50th, 95 ms 95th, 105 ms 99th, 108 ms 99.9th.
+1000000 records sent, 360880.548538 records/sec (344.16 MB/sec), 75.85 ms avg latency, 200.00 ms max latency, 77 ms 50th, 89 ms 95th, 93 ms 99th, 99 ms 99.9th.
+1000000 records sent, 347222.222222 records/sec (331.14 MB/sec), 76.50 ms avg latency, 195.00 ms max latency, 74 ms 50th, 113 ms 95th, 122 ms 99th, 130 ms 99.9th.
+1000000 records sent, 286697.247706 records/sec (273.42 MB/sec), 96.72 ms avg latency, 226.00 ms max latency, 83 ms 50th, 171 ms 95th, 180 ms 99th, 183 ms 99.9th.
+1000000 records sent, 270635.994587 records/sec (258.10 MB/sec), 100.49 ms avg latency, 236.00 ms max latency, 93 ms 50th, 165 ms 95th, 176 ms 99th, 181 ms 99.9th.
+2017-11-01 18:04:50

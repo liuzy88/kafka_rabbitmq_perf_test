@@ -1,0 +1,42 @@
+关于RabbitMQ的消息大小测试
+结论：之前图上的数据取的是recving的数据，数值大是因为消息消费了9次
+取sending计算结果如下
+---------条/s
+68649
+52598
+35119
+32832
+32708
+32980
+23008
+21459
+18517
+13909
+12748
+----------MB/s
+6.546878814697266
+10.032272338867188
+13.396835327148438
+18.78662109375
+24.9542236328125
+31.452178955078125
+43.88427734375
+81.85958862304688
+105.95512390136719
+106.11724853515625
+121.57440185546875
+
+源数据：
+三节点，9生产者9消费者，非持久化，自动ACK
+messsagesize
+id: test-090459-268, sending rate avg: 68649 msg/s recving rate avg: 617842 msg/s
+id: test-090534-083, sending rate avg: 52598 msg/s recving rate avg: 473386 msg/s
+id: test-090608-541, sending rate avg: 35119 msg/s recving rate avg: 316079 msg/s
+id: test-090642-607, sending rate avg: 32832 msg/s recving rate avg: 295495 msg/s
+id: test-090715-374, sending rate avg: 32708 msg/s recving rate avg: 294372 msg/s
+id: test-090748-192, sending rate avg: 32980 msg/s recving rate avg: 296822 msg/s
+id: test-090820-585, sending rate avg: 23008 msg/s recving rate avg: 207051 msg/s
+id: test-090853-134, sending rate avg: 21459 msg/s recving rate avg: 193037 msg/s
+id: test-090924-636, sending rate avg: 18517 msg/s recving rate avg: 166120 msg/s
+id: test-090956-140, sending rate avg: 13909 msg/s recving rate avg: 112698 msg/s
+id: test-091029-628, sending rate avg: 12748 msg/s recving rate avg: 81907 msg/s

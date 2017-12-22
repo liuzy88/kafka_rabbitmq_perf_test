@@ -1,6 +1,7 @@
 单节点测试结果：
 
 1.消息大小(100 200 400 600 800 1000 2000 4000 6000 8000 10000)：
+messsagesize
 sending rate avg: 36275 msg/s recving rate avg: 36275 msg/s
 sending rate avg: 39518 msg/s recving rate avg: 39518 msg/s
 sending rate avg: 39761 msg/s recving rate avg: 39761 msg/s
@@ -12,6 +13,18 @@ sending rate avg: 34821 msg/s recving rate avg: 34821 msg/s
 sending rate avg: 35059 msg/s recving rate avg: 35055 msg/s
 sending rate avg: 32468 msg/s recving rate avg: 32468 msg/s
 sending rate avg: 33467 msg/s recving rate avg: 33464 msg/s
+messsagesize
+sending rate avg: 60646 msg/s recving rate avg: 545817 msg/s
+sending rate avg: 52458 msg/s recving rate avg: 472129 msg/s
+sending rate avg: 34899 msg/s recving rate avg: 314091 msg/s
+sending rate avg: 35248 msg/s recving rate avg: 317238 msg/s
+sending rate avg: 34270 msg/s recving rate avg: 308435 msg/s
+sending rate avg: 35737 msg/s recving rate avg: 321638 msg/s
+sending rate avg: 24238 msg/s recving rate avg: 218138 msg/s
+sending rate avg: 21227 msg/s recving rate avg: 191050 msg/s
+sending rate avg: 18224 msg/s recving rate avg: 163758 msg/s
+sending rate avg: 13999 msg/s recving rate avg: 123768 msg/s
+sending rate avg: 13364 msg/s recving rate avg: 89169 msg/s
 
 2.生产者/消费者 数量(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15)：
 ps
