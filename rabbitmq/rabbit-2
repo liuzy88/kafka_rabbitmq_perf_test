@@ -1,0 +1,131 @@
+333333
+
+ps
+sending rate avg: 25783 msg/s recving rate avg: 25783 msg/s - 24.59MB/s
+sending rate avg: 22892 msg/s recving rate avg: 45785 msg/s - 43.66MB/s
+sending rate avg: 18456 msg/s recving rate avg: 55368 msg/s - 52.80MB/s
+sending rate avg: 16651 msg/s recving rate avg: 66600 msg/s - 63.51MB/s
+sending rate avg: 14536 msg/s recving rate avg: 72682 msg/s - 69.31MB/s
+sending rate avg: 13480 msg/s recving rate avg: 80885 msg/s - 77.14MB/s
+sending rate avg: 11364 msg/s recving rate avg: 79549 msg/s - 75.86MB/s
+sending rate avg: 10192 msg/s recving rate avg: 81537 msg/s - 77.76MB/s
+sending rate avg: 10339 msg/s recving rate avg: 93054 msg/s - 88.74MB/s
+sending rate avg: 9311 msg/s recving rate avg: 93115 msg/s - 88.80MB/s
+sending rate avg: 8461 msg/s recving rate avg: 93076 msg/s - 88.76MB/s
+sending rate avg: 8260 msg/s recving rate avg: 99120 msg/s - 94.53MB/s
+sending rate avg: 7524 msg/s recving rate avg: 97821 msg/s - 93.29MB/s
+sending rate avg: 7029 msg/s recving rate avg: 98406 msg/s - 93.85MB/s
+sending rate avg: 6777 msg/s recving rate avg: 101668 msg/s - 96.96MB/s
+sending rate avg: 6277 msg/s recving rate avg: 100436 msg/s - 95.78MB/s
+sending rate avg: 5956 msg/s recving rate avg: 101256 msg/s - 96.57MB/s
+sending rate avg: 6262 msg/s recving rate avg: 112722 msg/s - 107.50MB/s
+sending rate avg: 6220 msg/s recving rate avg: 118187 msg/s - 112.71MB/s
+sending rate avg: 5417 msg/s recving rate avg: 108344 msg/s - 103.32MB/s
+sending rate avg: 5569 msg/s recving rate avg: 116965 msg/s - 111.55MB/s
+sending rate avg: 5103 msg/s recving rate avg: 112276 msg/s - 107.07MB/s
+sending rate avg: 4954 msg/s recving rate avg: 113955 msg/s - 108.68MB/s
+sending rate avg: 4844 msg/s recving rate avg: 116271 msg/s - 110.88MB/s
+sending rate avg: 4363 msg/s recving rate avg: 109091 msg/s - 104.04MB/s
+sending rate avg: 4074 msg/s recving rate avg: 105946 msg/s - 101.04MB/s
+sending rate avg: 4073 msg/s recving rate avg: 109993 msg/s - 104.90MB/s
+sending rate avg: 4013 msg/s recving rate avg: 112382 msg/s - 107.18MB/s
+sending rate avg: 3868 msg/s recving rate avg: 112182 msg/s - 106.99MB/s
+sending rate avg: 3779 msg/s recving rate avg: 113380 msg/s - 108.13MB/s
+cs
+sending rate avg: 24561 msg/s recving rate avg: 24561 msg/s - 23.42MB/s
+sending rate avg: 37236 msg/s recving rate avg: 37236 msg/s - 35.51MB/s
+sending rate avg: 75366 msg/s recving rate avg: 75366 msg/s - 71.87MB/s
+sending rate avg: 76701 msg/s recving rate avg: 76701 msg/s - 73.15MB/s
+sending rate avg: 76673 msg/s recving rate avg: 76673 msg/s - 73.12MB/s
+sending rate avg: 76590 msg/s recving rate avg: 76589 msg/s - 73.04MB/s
+sending rate avg: 77069 msg/s recving rate avg: 77069 msg/s - 73.50MB/s
+sending rate avg: 79879 msg/s recving rate avg: 79879 msg/s - 76.18MB/s
+sending rate avg: 74041 msg/s recving rate avg: 74041 msg/s - 70.61MB/s
+sending rate avg: 77943 msg/s recving rate avg: 77943 msg/s - 74.33MB/s
+sending rate avg: 76711 msg/s recving rate avg: 76711 msg/s - 73.16MB/s
+sending rate avg: 73407 msg/s recving rate avg: 73407 msg/s - 70.01MB/s
+sending rate avg: 72829 msg/s recving rate avg: 72829 msg/s - 69.46MB/s
+sending rate avg: 74692 msg/s recving rate avg: 74692 msg/s - 71.23MB/s
+sending rate avg: 72892 msg/s recving rate avg: 72892 msg/s - 69.52MB/s
+sending rate avg: 74485 msg/s recving rate avg: 74485 msg/s - 71.03MB/s
+sending rate avg: 71817 msg/s recving rate avg: 71817 msg/s - 68.49MB/s
+sending rate avg: 74940 msg/s recving rate avg: 74940 msg/s - 71.47MB/s
+sending rate avg: 74993 msg/s recving rate avg: 74993 msg/s - 71.52MB/s
+sending rate avg: 69947 msg/s recving rate avg: 69947 msg/s - 66.71MB/s
+sending rate avg: 76871 msg/s recving rate avg: 76871 msg/s - 73.31MB/s
+sending rate avg: 76179 msg/s recving rate avg: 76179 msg/s - 72.65MB/s
+sending rate avg: 74541 msg/s recving rate avg: 74541 msg/s - 71.09MB/s
+sending rate avg: 74860 msg/s recving rate avg: 74860 msg/s - 71.39MB/s
+sending rate avg: 72043 msg/s recving rate avg: 72043 msg/s - 68.71MB/s
+sending rate avg: 74140 msg/s recving rate avg: 74140 msg/s - 70.71MB/s
+sending rate avg: 69980 msg/s recving rate avg: 69980 msg/s - 66.74MB/s
+sending rate avg: 71872 msg/s recving rate avg: 71872 msg/s - 68.54MB/s
+sending rate avg: 69387 msg/s recving rate avg: 69387 msg/s - 66.17MB/s
+sending rate avg: 69669 msg/s recving rate avg: 69669 msg/s - 66.44MB/s
+
+
+
+11111111
+
+ps
+sending rate avg: 33506 msg/s recving rate avg: 33506 msg/s - 31.95 MB/s
+sending rate avg: 26499 msg/s recving rate avg: 52998 msg/s - 50.54 MB/s
+sending rate avg: 22823 msg/s recving rate avg: 68469 msg/s - 65.30 MB/s
+sending rate avg: 19827 msg/s recving rate avg: 79311 msg/s - 75.64 MB/s
+sending rate avg: 16958 msg/s recving rate avg: 84793 msg/s - 80.86 MB/s
+sending rate avg: 15055 msg/s recving rate avg: 90330 msg/s - 86.15 MB/s
+sending rate avg: 13773 msg/s recving rate avg: 96411 msg/s - 91.94 MB/s
+sending rate avg: 11941 msg/s recving rate avg: 95533 msg/s - 91.11 MB/s
+sending rate avg: 11026 msg/s recving rate avg: 99242 msg/s - 94.64 MB/s
+sending rate avg: 10230 msg/s recving rate avg: 102305 msg/s - 97.57 MB/s
+sending rate avg: 9337 msg/s recving rate avg: 102714 msg/s - 97.96 MB/s
+sending rate avg: 8949 msg/s recving rate avg: 107391 msg/s - 102.42 MB/s
+sending rate avg: 8071 msg/s recving rate avg: 104927 msg/s - 100.07 MB/s
+sending rate avg: 7689 msg/s recving rate avg: 107658 msg/s - 102.67 MB/s
+sending rate avg: 7325 msg/s recving rate avg: 109884 msg/s - 104.79 MB/s
+sending rate avg: 6303 msg/s recving rate avg: 100852 msg/s - 96.18 MB/s
+sending rate avg: 5958 msg/s recving rate avg: 101287 msg/s - 96.59 MB/s
+sending rate avg: 5899 msg/s recving rate avg: 106198 msg/s - 101.28 MB/s
+sending rate avg: 5620 msg/s recving rate avg: 106798 msg/s - 101.85 MB/s
+sending rate avg: 5501 msg/s recving rate avg: 110030 msg/s - 104.93 MB/s
+sending rate avg: 5235 msg/s recving rate avg: 109955 msg/s - 104.86 MB/s
+sending rate avg: 5044 msg/s recving rate avg: 110972 msg/s - 105.83 MB/s
+sending rate avg: 4238 msg/s recving rate avg: 97476 msg/s - 92.96 MB/s
+sending rate avg: 4431 msg/s recving rate avg: 106365 msg/s - 101.44 MB/s
+sending rate avg: 4223 msg/s recving rate avg: 105579 msg/s - 100.69 MB/s
+sending rate avg: 3879 msg/s recving rate avg: 100861 msg/s - 96.19 MB/s
+sending rate avg: 4055 msg/s recving rate avg: 109504 msg/s - 104.43 MB/s
+sending rate avg: 3791 msg/s recving rate avg: 106168 msg/s - 101.25 MB/s
+sending rate avg: 3569 msg/s recving rate avg: 103516 msg/s - 98.72 MB/s
+sending rate avg: 3475 msg/s recving rate avg: 104250 msg/s - 99.42 MB/s
+cs
+sending rate avg: 34515 msg/s recving rate avg: 34515 msg/s - 32.92 MB/s
+sending rate avg: 71309 msg/s recving rate avg: 71309 msg/s - 68.01 MB/s
+sending rate avg: 73987 msg/s recving rate avg: 73987 msg/s - 70.56 MB/s
+sending rate avg: 73305 msg/s recving rate avg: 73305 msg/s - 69.91 MB/s
+sending rate avg: 75057 msg/s recving rate avg: 75057 msg/s - 71.58 MB/s
+sending rate avg: 73229 msg/s recving rate avg: 73229 msg/s - 69.84 MB/s
+sending rate avg: 76505 msg/s recving rate avg: 76505 msg/s - 72.96 MB/s
+sending rate avg: 76941 msg/s recving rate avg: 76941 msg/s - 73.38 MB/s
+sending rate avg: 73649 msg/s recving rate avg: 73649 msg/s - 70.24 MB/s
+sending rate avg: 75229 msg/s recving rate avg: 75229 msg/s - 71.74 MB/s
+sending rate avg: 75539 msg/s recving rate avg: 75539 msg/s - 72.04 MB/s
+sending rate avg: 63287 msg/s recving rate avg: 63287 msg/s - 60.36 MB/s
+sending rate avg: 66453 msg/s recving rate avg: 66453 msg/s - 63.37 MB/s
+sending rate avg: 67444 msg/s recving rate avg: 67444 msg/s - 64.32 MB/s
+sending rate avg: 63742 msg/s recving rate avg: 63742 msg/s - 60.79 MB/s
+sending rate avg: 60503 msg/s recving rate avg: 60503 msg/s - 57.70 MB/s
+sending rate avg: 55518 msg/s recving rate avg: 55518 msg/s - 52.95 MB/s
+sending rate avg: 50754 msg/s recving rate avg: 50754 msg/s - 48.40 MB/s
+sending rate avg: 49485 msg/s recving rate avg: 49485 msg/s - 47.19 MB/s
+sending rate avg: 49637 msg/s recving rate avg: 49637 msg/s - 47.34 MB/s
+sending rate avg: 47175 msg/s recving rate avg: 47175 msg/s - 44.99 MB/s
+sending rate avg: 43554 msg/s recving rate avg: 43554 msg/s - 41.54 MB/s
+sending rate avg: 45279 msg/s recving rate avg: 45279 msg/s - 43.18 MB/s
+sending rate avg: 44617 msg/s recving rate avg: 44617 msg/s - 42.55 MB/s
+sending rate avg: 40700 msg/s recving rate avg: 40700 msg/s - 38.81 MB/s
+sending rate avg: 39367 msg/s recving rate avg: 39367 msg/s - 37.54 MB/s
+sending rate avg: 38828 msg/s recving rate avg: 38828 msg/s - 37.03 MB/s
+sending rate avg: 40496 msg/s recving rate avg: 40496 msg/s - 38.62 MB/s
+sending rate avg: 38943 msg/s recving rate avg: 38943 msg/s - 37.14 MB/s
+sending rate avg: 38289 msg/s recving rate avg: 38289 msg/s - 36.52 MB/s
