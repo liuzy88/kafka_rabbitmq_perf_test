@@ -34,7 +34,7 @@ JDK版本 jdk1.8.0_111
 - 软件下载
 
 ```
-http://www.rabbitmq.com/releases/rabbitmq-server/v3.6.10/
+http://www.rabbitmq.com/releases/rabbitmq-server/
 http://www.rabbitmq.com/releases/erlang/
 ```
 
@@ -70,6 +70,9 @@ echo 'export PATH=$PATH:/usr/lib/rabbitmq/lib/rabbitmq_server-3.6.10/sbin' >> /e
 echo '' >> /etc/profile
 
 source /etc/profile
+
+/sbin/service rabbitmq-server start
+/sbin/service rabbitmq-server status
 
 rabbitmq-plugins list
 rabbitmq-plugins enable rabbitmq_management
