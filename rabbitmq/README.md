@@ -71,14 +71,12 @@ echo '' >> /etc/profile
 
 source /etc/profile
 
-/sbin/service rabbitmq-server start
-/sbin/service rabbitmq-server status
+service rabbitmq-server start
+service rabbitmq-server status
 
 rabbitmq-plugins list
 rabbitmq-plugins enable rabbitmq_management
 rabbitmq-plugins list
-
-service rabbitmq-server start
 
 rabbitmqctl start_app
 
